@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="RazorClassLibrary/RazorClassLibrary.csproj" />
+  <Project Path="RazorFunctionApp/RazorFunctionApp.csproj" />
+</Solution>

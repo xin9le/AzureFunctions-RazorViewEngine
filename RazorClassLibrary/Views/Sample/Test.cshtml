@@ -1,0 +1,9 @@
+@model DateTimeOffset
+
+@{
+    var http = this.ViewContext.HttpContext;
+    var ipAddress = http?.Connection.RemoteIpAddress;
+}
+
+<div>IPAddress: @ipAddress</div>
+<div>AccessedAt: @this.Model</div>
